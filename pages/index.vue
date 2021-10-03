@@ -117,6 +117,24 @@ import axios from 'axios'
 import Loading from '../components/Loading.vue'
 export default {
   components: { Loading },
+
+  head(){
+      return {
+          title : "Movie App - Latest Mega Movies",
+          meta : [
+              {
+                  hid : 'description',
+                  name : 'description',
+                  content : 'Get latest movies'
+              },
+              {
+                  hid : 'keywords',
+                  name : 'keywords',
+                  content : 'movies, stream, mega, films, latest'
+              }
+          ]
+      }
+  },
   data() {
     return {
       movies: [],
