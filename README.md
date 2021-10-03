@@ -1,5 +1,5 @@
 # movieapp
-
+Deployed URL : https://movie-mega-app.herokuapp.com/
 ## Build Setup
 
 ```bash
